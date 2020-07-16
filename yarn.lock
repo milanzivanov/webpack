@@ -919,6 +919,12 @@ debug@2.2.0, debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
+debug@^4.0.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  dependencies:
+    ms "^2.1.1"
+
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
@@ -2179,9 +2185,9 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
-loader-runner@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.2.0.tgz#824c1b699c4e7a2b6501b85902d5b862bf45b3fa"
+loader-runner@^2.3.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
 
 loader-utils@0.2.x, loader-utils@^0.2.16, loader-utils@^0.2.3, loader-utils@^0.2.5, loader-utils@^0.2.7, loader-utils@~0.2.2, loader-utils@~0.2.5:
   version "0.2.16"
@@ -2280,9 +2286,9 @@ lodash.words@^3.0.0:
   dependencies:
     lodash._root "^3.0.0"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.3, lodash@^4.3.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
 
 log-driver@1.2.5:
   version "1.2.5"
@@ -2439,6 +2445,10 @@ ms@0.7.1:
 ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
+
+ms@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
 
 mute-stream@0.0.5:
   version "0.0.5"
@@ -3545,6 +3555,12 @@ sigmund@^1.0.1:
 signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+simple-git@^1.65.0:
+  version "1.132.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.132.0.tgz#53ac4c5ec9e74e37c2fd461e23309f22fcdf09b1"
+  dependencies:
+    debug "^4.0.1"
 
 sinon@^1.17.7:
   version "1.17.7"
